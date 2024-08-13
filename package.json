@@ -1,0 +1,29 @@
+{
+  "name": "optima-jsx",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.1",
+    "vue": "^3.4.35"
+  },
+  "devDependencies": {
+    "@sxzz/eslint-config": "^3.17.0",
+    "@sxzz/prettier-config": "^2.0.2",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "eslint": "^9.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.3",
+    "unplugin-vue-macros": "^2.11.5",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.0.29"
+  },
+  "prettier": "@sxzz/prettier-config"
+}
